@@ -85,6 +85,8 @@ ls
     Ex.: ls
     Ex.: ls -F (mostra quem é diretório e quem é arquivo)
     
+    Ex.: ls -ca (Mostra os ARQUIVOS OCULTOS do diretório)
+    
     
   Ps.: Existem variações, tais como ls -l, com a qual é possível obter informações mais detalhadas sobre os arquivos, como permissões e tamanho. 
     Ex.: ls -l
