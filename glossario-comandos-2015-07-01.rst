@@ -83,6 +83,8 @@ lastb
 ls
   Exibe os arquivos que estão dentro da pasta na qual o usuário está no momento.
     Ex.: ls
+    Ex.: ls -F (mostra quem é diretório e quem é arquivo)
+    
     
   Ps.: Existem variações, tais como ls -l, com a qual é possível obter informações mais detalhadas sobre os arquivos, como permissões e tamanho. 
     Ex.: ls -l
@@ -134,6 +136,9 @@ wall
   Envia uma mensagem a todos os usuários do sistema. Este comando faz a leitura de um arquivo ou entrada padrão e escreve o resultado em todos os terminais onde existem usuários conectados. 
   Ex.: wall "mensagem"
 
+wc 
+  Conta a quantidade de arquivos/diretórios dentro do diretório.
+    EX.: ls /nomedodiretorio/ | wc -l
 
 which
   Busca de arquivos no sistema de forma muito rápida. Busca por executáveis nos PATHs exportados.
